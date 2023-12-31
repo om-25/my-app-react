@@ -1,0 +1,21 @@
+.ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+  }
+  
+  .li {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: inline-start;
+  }
+  
+  .a {
+    display: block;
+    color: white;
+  }
+
+  
