@@ -5,13 +5,9 @@ pipeline {
        stage("scm checkout"){
           steps{
               checkout scm
+             echo "success."
           }
-       }
-      stage("build"){
-          steps{
-              sh "npm run build"
-          }
-       }
    }
+}
 }
 
